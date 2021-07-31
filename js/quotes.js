@@ -8,11 +8,13 @@ const quotes = [
     author: "Steve Wozniak",
   },
   {
-    quote: "Programming isn’t about what you know; it’s about what you can figure out.",
+    quote:
+      "Programming isn’t about what you know; it’s about what you can figure out.",
     author: "Chris Pine",
   },
   {
-    quote: "The only way to learn a new programming language is by writing programs in it.",
+    quote:
+      "The only way to learn a new programming language is by writing programs in it.",
     author: "Dennis Ritchie",
   },
   {
@@ -24,7 +26,8 @@ const quotes = [
     author: "Robert S. Barton",
   },
   {
-    quote: "Measuring programming progree by lines of code is like measuring aircraft building progree by weight.",
+    quote:
+      "Measuring programming progree by lines of code is like measuring aircraft building progree by weight.",
     author: "Bill Gates",
   },
   {
@@ -32,19 +35,21 @@ const quotes = [
     author: "Bill Gates",
   },
   {
-    quote: "People don't care about what you say, they care about what you build.",
+    quote:
+      "People don't care about what you say, they care about what you build.",
     author: "Mark Zuckerberg",
   },
   {
-    quote: "Bad programmers worry about the code. Good programmers worry about data structures and their relationships.",
+    quote:
+      "Bad programmers worry about the code. Good programmers worry about data structures and their relationships.",
     author: "Linus Torvalds",
   },
-]
+];
 
-const quote = document.querySelector("#quote span:first-child")
-const author = document.querySelector("#quote span:last-child")
+const quote = document.querySelector("#quote span:first-child");
+const author = document.querySelector("#quote span:last-child");
 
-const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)]
+const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-quote.innerHTML = todaysQuote.quote
-author.innerHTML = todaysQuote.author
+quote.innerHTML = todaysQuote.quote;
+author.innerHTML = todaysQuote.author;
