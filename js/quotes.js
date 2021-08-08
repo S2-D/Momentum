@@ -9,7 +9,7 @@ const quotes = [
   },
   {
     quote:
-      "Programming isn’t about what you know; it’s about what you can figure out.",
+      "Programming isn't about what you know; it's about what you can figure out.",
     author: "Chris Pine",
   },
   {
@@ -26,11 +26,6 @@ const quotes = [
     author: "Robert S. Barton",
   },
   {
-    quote:
-      "Measuring programming progree by lines of code is like measuring aircraft building progree by weight.",
-    author: "Bill Gates",
-  },
-  {
     quote: "The computer was born to solve problems that did not exist before.",
     author: "Bill Gates",
   },
@@ -41,7 +36,7 @@ const quotes = [
   },
   {
     quote:
-      "Bad programmers worry about the code. Good programmers worry about data structures and their relationships.",
+      "Good programmers worry about data structures and their relationships.",
     author: "Linus Torvalds",
   },
 ];
